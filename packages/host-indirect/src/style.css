@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+aside {
+  border-top: 1px solid gray;
+  padding-top: 20px;
+}
+
+dl {
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 2px;
+  grid-template-columns: 2fr 1fr;
+  max-width: 300px;
+}
+
+dt {
+  text-align: right;
+}
+
+dd {
+  margin: 0;
+}
+
+#app {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-gap: 20px;
+  grid-row-gap: 10px;
+  margin: 20px auto;
+  min-width: 500px;
+}
+
+#app {
+  outline: 3px dashed orangered;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 999px) {
+  #app {
+    grid-template-areas:
+      "store basket"
+      "image name"
+      "image options"
+      "image buy"
+      "reco reco";
+    grid-template-columns: 4fr 3fr;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #app {
+    grid-template-areas:
+      "store basket  reco"
+      "image name    reco"
+      "image options reco"
+      "image buy     reco";
+    grid-template-columns: 4fr 3fr 200px;
+    width: 1000px;
+  }
+}

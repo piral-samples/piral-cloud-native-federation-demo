@@ -1,0 +1,23 @@
+{
+  "name": "host-indirect",
+  "version": "1.0.0",
+  "description": "App shell using imports from a feed",
+  "keywords": [],
+  "author": "Florian Rappl",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --port 1234",
+    "preview": "npx http-server dist --port 1234 --cors",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@softarc/native-federation": "^2.0.8"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^0.2.6",
+    "@types/node": "18.11.18",
+    "native-federation-esbuild": "^1.0.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.1"
+  }
+}

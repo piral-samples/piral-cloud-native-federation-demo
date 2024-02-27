@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "publish:mf": "lerna run publish:mf",
+    "run:feed": "lerna run preview --stream --scope host-indirect",
+    "run:local": "lerna run preview --stream --ignore host-indirect"
+  },
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  }
+}

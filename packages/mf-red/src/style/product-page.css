@@ -1,0 +1,61 @@
+#store {
+  font-weight: 400;
+  grid-area: store;
+  margin-top: 5px;
+}
+
+#image {
+  grid-area: image;
+  width: 100%;
+}
+
+#image > div {
+  padding-top: 100%;
+  position: relative;
+}
+
+#image img {
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#name {
+  font-weight: 400;
+  grid-area: name;
+  height: 3em;
+}
+
+#name small {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+#options {
+  align-self: center;
+  display: flex;
+  grid-area: options;
+}
+
+#options button {
+  border: none;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  display: block;
+  margin: 2px;
+  outline: none;
+  padding: 0;
+}
+
+#options button.active,
+#options button:hover {
+  border-bottom-color: seagreen;
+}
+
+#options img {
+  display: block;
+  max-width: 100%;
+}
