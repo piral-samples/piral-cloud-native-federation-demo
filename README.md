@@ -6,9 +6,17 @@
 
 :zap: Use the Piral Feed Service for generic micro frontend discovery in the context of Native Federation-based micro frontends.
 
-Feel free to play around with the code using StackBlitz.
+Feel free to play around with the code using any of these cloud IDEs.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/piral-samples/piral-cloud-native-federation-demo)
+##  ☁ Open in the Cloud 
+[![Open in VS Code](https://img.shields.io/badge/Open%20in-VS%20Code-blue?logo=visualstudiocode)](https://vscode.dev/github/piral-samples/piral-cloud-native-federation-demo)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/piral-samples/piral-cloud-native-federation-demo)
+[![Open in CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/embed/react-markdown-preview-co1mj?fontsize=14&hidenavigation=1&theme=dark)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/piral-samples/piral-cloud-native-federation-demo)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/DanielSaromo/Pacman_UCB_Behavioral_Cloning?template=node&title=ngx-vcard%20Example)
+[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/piral-samples/piral-cloud-native-federation-demo)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/piral-samples/piral-cloud-native-federation-demo)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/piral-samples/piral-cloud-native-federation-demo)
 
 You can also visit this demo at [cloud-native-federation.samples.piral.cloud/](https://cloud-native-federation.samples.piral.cloud/).
 
